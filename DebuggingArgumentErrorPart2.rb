@@ -1,4 +1,4 @@
-def mean(numbers)
+def mean(*numbers) # adding * telling that there may have more than one argument given.
   sum = numbers.inject(:+)
   
   return sum / numbers.length
